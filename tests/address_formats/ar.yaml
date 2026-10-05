@@ -1,0 +1,15 @@
+# Argentina
+---
+- description: Building in Argentina
+  components:
+    street_number: "627"
+    street_name: Bahía Blanca
+    postalcode: "C1407ABK"
+    city: "Buenos Aires"
+    country: "Argentina"
+  expected_multiline: |
+    Bahía Blanca 627
+    C1407ABK Buenos Aires
+    Argentina
+  expected_singleline: >
+    Bahía Blanca 627, C1407ABK Buenos Aires, Argentina
